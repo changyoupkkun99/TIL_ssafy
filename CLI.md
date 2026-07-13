@@ -1,3 +1,4 @@
+7/10
 # 마크다운
 
 > 문서를 체계적으로 관리할 수 있도록 하는 문법
@@ -27,6 +28,7 @@ print('hello') # 이렇게 그 언어의 문법에 맞춰 하이라이팅
     - . 현재 디렉토리
     - .. 현재의 상위 디렉토리(부모 폴더)
   - 터미널로 넘어가는 키: Ctrl + `(~)
+  - [스페이스][스페이스] # 다움 줄 넘어가기
 
 - 기초 문법
   - touch: 파일생성
@@ -51,3 +53,13 @@ print('hello') # 이렇게 그 언어의 문법에 맞춰 하이라이팅
   - git log --oneline: log내용을 간략히 한줄로 확인 가능
   - git log --oneline --graph: 노드와 엣지로 이루어져 있음
 > 작업 -> add -> commit
+
+
+7/13
+
+- 문법 설명
+  - git remote add origin https://github.com/changyoupkkun99/TIL_ssafy.git  
+  -> git에 원격으로 추가할게 origin(별명)을 # origin 수정가능
+  - git push origin master
+  - git push -u origin master
+  - git clone [주소] # 복사 해오기
